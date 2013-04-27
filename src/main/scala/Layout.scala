@@ -18,8 +18,8 @@ class Layout(implicit context: SContext) extends SLinearLayout {
     .orientation(VERTICAL)
 
   // Add widgets to layout
-  STextView("Enter Search Query")
+  STextView(R.string.input_label)
   this += inputText
-  STextView("Suggestions:")
+  STextView(R.string.result_label)
   this += resultList
 }

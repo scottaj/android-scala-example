@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Suggest</string>
+    <string name="input_hint">Start entering text</string>
+</resources>

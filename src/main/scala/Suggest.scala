@@ -16,7 +16,7 @@ import android.widget.ArrayAdapter
 import java.util.ArrayList
 
 
-class Suggest extends SActivity with TypedActivity {
+class Suggest extends SActivity {
   private var adapter: ArrayAdapter[String] = null
   private implicit val system = ActorSystem("suggest")
   private val service = system.actorOf(Props[SuggestService])
